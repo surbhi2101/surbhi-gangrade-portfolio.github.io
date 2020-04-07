@@ -294,5 +294,15 @@
 	</div>
 </div><!--End of container-->
 
+<script type="text/javascript">
+	//For auto hide button on reaching id
+
+$(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+</script>
+
 </body>
 </html>
