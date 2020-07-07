@@ -600,7 +600,14 @@
 </div>
 			
 		</div>
-	
+	<script>
+  //For auto hide button on reaching id
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+  AOS.init();
+</script>
 
 
 </body>
